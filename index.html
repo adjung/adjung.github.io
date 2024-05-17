@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextflix - Your Personalized Netflix Recommendation System</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #141414;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #e50914;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .hero video {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        .hero h2 {
+            margin: 20px 0 10px;
+            font-size: 2em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .feature {
+            background: #333333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 45%;
+            margin: 10px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .feature p {
+            font-size: 1.1em;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button-container a {
+            background-color: #e50914;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        .button-container a:hover {
+            background-color: #f40612;
+        }
+        footer {
+            background: #000000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+            color: #7a7a7a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nextflix</h1>
+    </header>
+    <div class="container">
+        <section class="hero">
+            <video src="Video.mp4" autoplay loop muted></video>
+            <h2>Struggling to find your next show? Try Nextflix!</h2>
+            <p>Nextflix uses advanced data analytics to provide personalized recommendations, helping Netflix users find their next binge-worthy show or movie.</p>
+            <div class="button-container">
+                <a href="content.html">Learn More</a>
+            </div>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h3>Personalized Recommendations</h3>
+                <p>Our system tailors suggestions based on your viewing history and preferences.</p>
+            </div>
+            <div class="feature">
+                <h3>Data-Driven Insights</h3>
+                <p>Leverage the power of data analytics to get the best recommendations.</p>
+            </div>
+            <div class="feature">
+                <h3>Wide Range of Genres</h3>
+                <p>Explore recommendations across all genres to find exactly what you're in the mood for.</p>
+            </div>
+            <div class="feature">
+                <h3>User-Friendly Interface</h3>
+                <p>Enjoy a seamless and intuitive experience as you discover new content.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nextflix. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
